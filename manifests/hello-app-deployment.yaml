@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: 660388656768.dkr.ecr.ap-northeast-3.amazonaws.com/flask-app
+        image: 660388656768.dkr.ecr.ap-northeast-3.amazonaws.com/flask-app:3a91c9f
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
